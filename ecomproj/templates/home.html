@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+{% block content %}
+<title>E-COM</title>
+<br>
+<div class="container1">
+    <section id="home">
+        <div class="home_page ">
+            <div class="home_img">
+                <img src="/static/img/laptop2.avif" alt="img ">
+            </div>
+            <div class="home_txt ">
+                <div class="main-text">
+                    <p class="collection">TECH COLLECTION</p>
+                    <h2>LAPTOP FOR THE FUTURE</h2>
+                    <div class="home_label ">
+                        <p>The new 14 inch bezeless display <br> offering a 4k display with touch <br> screen
+                    </div>
+                </div>
+                <button><a href="#sellers">SHOP NOW</a><i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>
+    </section>
+</div>
+<section id="collection">
+    <div class="collections container">
+        <div class="content">
+            <img src="/static/img/phone2.jpg" />
+            <div class="img-content">
+                <p>Phone Collections</p>
+                <button><a href="#sellers">SHOP NOW</a></button>
+            </div>
+        </div>
+        <center>
+
+            <div class="container2">
+                <img src="/static/img/laptop1.jpg" style="height: 50%; width: 50%;" />
+                <div class="buy-now2">
+                    <button><a href="hp15spage">BUY NOW</button>
+                </div>
+                <div class="phone-container">
+                    <img src="/static/img/phone6.png" style="height: 100%; width: 50%;" />
+                </div>
+                <div class="buy-now2">
+                    <button><a href="Rogphone7">BUY NOW</a></button>
+                </div>
+            </div>
+        </center>
+
+    </div>
+</section>
+{% include "show_product.html" %}
+<section id="sellers">
+    <div class="seller container">
+        <h2>Top Sales</h2>
+        <div class="best-seller">
+            <div class="best-p1">
+                <img src="/static/img/iphone-card-40-iphone15hero-202309_FMT_WHH-removebg-preview.png">
+                <div class="best-p1-txt">
+                    <div class="name-of-p">
+                        <p>Iphone 15s </p>
+                    </div>
+
+                    <div class="price">
+                        &dollar;983.23
+                    </div>
+                    <div class="buy-now">
+                        <button><a href="iphinepage">Buy Now</a></button>
+                    </div>
+                    <!-- <div class="add-cart">
+                                <button>Add To Cart</button>
+                            </div> -->
+                </div>
+            </div>
+            <div class="best-p1">
+                <img src="/static/img/Samsung-A14-5G-Mobile-Phone-493664920-i-1-1200Wx1200H-300Wx300H-removebg-preview.png"
+                    alt="img">
+                <div class="best-p1-txt">
+                    <div class="name-of-p">
+                        <p>Samsung galaxy M1</p>
+                    </div>
+
+                    <div class="price">
+                        &dollar;107.92
+
+                    </div>
+                    <div class="buy-now">
+                        <button><a href="samsungM1">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="best-p1">
+                <img src="/static/img/macbook-37.png">
+                <div class="best-p1-txt">
+                    <div class="name-of-p">
+                        <p>Mcbook pro max</p>
+                    </div>
+
+                    <div class="price">
+                        &dollar;4,796.24
+
+                    </div>
+                    <div class="buy-now">
+                        <button><a href="macbookpage">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="best-p1">
+                <img src="/static/img/05-real-strix-17-g-l-1654071388-removebg-preview.png" alt="img">
+                <div class="best-p1-txt">
+                    <div class="name-of-p">
+                        <p>Asus ROG Strix G173RW</p>
+                    </div>
+
+                    <div class="price">
+                        &dollar;1,079.15
+
+                    </div>
+                    <div class="buy-now">
+                        <button><a href="page">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
